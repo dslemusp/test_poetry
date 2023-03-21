@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test-utils"
+version = "0.1.0"
+description = "tutorial"
+authors = ["Daniel Lemus <dlemus@rocsys.com>"]
+readme = "README.md"
+packages = [{include = "test_utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+loguru = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
